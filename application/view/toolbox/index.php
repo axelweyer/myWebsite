@@ -253,7 +253,7 @@
 					<div class="insideTool">
 					<div class="row">
 						<div class="col-sm-3 text-left">
-					<img class="toolboxImg" src="img/toolbox/mini.png">
+					<img class="toolboxImg" src="img/toolbox/node.png">
 						</div>
 						<div class="col-sm-9 text-right">
 					<p class="toolboxTitle">Node.js</p>
@@ -470,6 +470,29 @@
 					<div class="insideTool">
 					<div class="row">
 						<div class="col-sm-3 text-left">
+					<img class="toolboxImg" src="img/toolbox/gulp.png">
+						</div>
+						<div class="col-sm-9 text-right">
+					<p class="toolboxTitle">Gulp</p>
+						<p class="toolboxSubtitle">Build System</p>
+						</div>
+					</div>
+					<br><br>
+					<div class="row">
+					<p class="toolboxBody">
+						Automation - it's a toolkit that helps you automate painful or time-consuming tasks in your development workflow
+					</p>
+					</div>
+					<br>
+					</div>
+				</div>
+				<div class="brick text-center tool sort to_test">
+					<div class="headTool">
+						<p>TO TEST</p>
+					</div>
+					<div class="insideTool">
+					<div class="row">
+						<div class="col-sm-3 text-left">
 					<img class="toolboxImg" src="img/toolbox/react.png">
 						</div>
 						<div class="col-sm-9 text-right">
@@ -634,38 +657,17 @@
 					<div class="insideTool">
 					<div class="row">
 						<div class="col-sm-3 text-left">
-					<img class="toolboxImg" src="img/toolbox/other.png">
-						</div>
-						<div class="col-sm-9 text-right">
-					<p class="toolboxTitle">Gulp</p>
-						</div>
-					</div>
-					<br><br>
-					<div class="row">
-					<p class="toolboxBody">
-						Gulp, MaterializeCSS, Normalize.css, Meteor...
-					</p>
-					</div>
-					<br>
-					</div>
-				</div>
-				<div class="brick text-center tool sort to_test">
-					<div class="headTool">
-						<p>TO TEST</p>
-					</div>
-					<div class="insideTool">
-					<div class="row">
-						<div class="col-sm-3 text-left">
-					<img class="toolboxImg" src="img/toolbox/other.png">
+					<img class="toolboxImg" src="img/toolbox/materialize.png">
 						</div>
 						<div class="col-sm-9 text-right">
 					<p class="toolboxTitle">MaterializeCSS</p>
+					<p class="toolboxSubtitle">Material Design Framework</p>
 						</div>
 					</div>
 					<br><br>
 					<div class="row">
 					<p class="toolboxBody">
-						Gulp, MaterializeCSS, Normalize.css, Meteor...
+						It's a modern responsive CSS framework based on Material Design by Google
 					</p>
 					</div>
 					<br>
@@ -678,16 +680,17 @@
 					<div class="insideTool">
 					<div class="row">
 						<div class="col-sm-3 text-left">
-					<img class="toolboxImg" src="img/toolbox/other.png">
+					<img class="toolboxImg" src="img/toolbox/normalize.png">
 						</div>
 						<div class="col-sm-9 text-right">
 					<p class="toolboxTitle">Normalize</p>
+					<p class="toolboxSubtitle">HTML Style Normalizations</p>
 						</div>
 					</div>
 					<br><br>
 					<div class="row">
 					<p class="toolboxBody">
-						Gulp, MaterializeCSS, Normalize.css, Meteor...
+						It makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing
 					</p>
 					</div>
 					<br>
@@ -700,16 +703,17 @@
 					<div class="insideTool">
 					<div class="row">
 						<div class="col-sm-3 text-left">
-					<img class="toolboxImg" src="img/toolbox/other.png">
+					<img class="toolboxImg" src="img/toolbox/meteor.png">
 						</div>
 						<div class="col-sm-9 text-right">
 					<p class="toolboxTitle">Meteor</p>
+					<p class="toolboxSubtitle">Web Application Builder</p>
 						</div>
 					</div>
 					<br><br>
 					<div class="row">
 					<p class="toolboxBody">
-						Gulp, MaterializeCSS, Normalize.css, Meteor...
+						 It's a free and open-source JavaScript web framework[3] written using Node.js. Meteor allows for rapid prototyping and produces cross-platform
 					</p>
 					</div>
 					<br>

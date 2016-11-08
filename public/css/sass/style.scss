@@ -1216,6 +1216,76 @@ button, .btn
 
 
 
+.card
+{
+	color: $text;
+	font-weight:700;
+	/*margin: 0 auto 0;
+	padding: 40px;*/
+	&-value {
+		.card-chart & {
+			font-size: 22px;
+			// position: absolute;
+		}
+		.card-smallchart & {
+			font-size: 14px;
+		}
+		.card-stats & {
+			font-size: 22px;
+		}
+		.card-remaining & {
+			color: $text;
+		}
+	}
+	&-chart {
+		position: relative;
+	}
+	&-center {
+		line-height: 1.5;
+		position: absolute;
+		top: 50px;
+		width: 100%;
+	}
+	&-label {
+		color: $emerald;
+		font-weight: 500;
+		.card-chart & {
+			font-size: 16px;
+			// position: absolute;
+		}
+		.card-smallchart & {
+			font-size: 14px;
+		}
+		.card-stats & {
+			font-size: 16px;
+		}
+		.card-consumed & {
+			color: white;
+		}
+	}
+	&-chart {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	&-type {
+		.card-smallchart &,
+		.card-stats & {
+			float: left;
+			width: 50%;
+		}
+	}
+	// donut charts
+	&-donut {
+		.card-smallchart & {
+			float: center;
+			margin-right: 10px;
+		}
+	}
+}
+/* animations */
+
+
+
 /**********************************/
 /********** PERSONNALITY **********/
 /**********************************/

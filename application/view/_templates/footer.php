@@ -64,6 +64,7 @@
     <!-- our JavaScript -->
 	<?php if(!isset($_GET['url']) || $_GET['url']=="home")
 	{ ?>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.1.3/circle-progress.min.js"></script>
     	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 		<script src="js/utils/jquery.horizBarChart.min.js"></script>
 		<script src="js/home.js"></script>

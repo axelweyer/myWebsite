@@ -18,6 +18,66 @@ $(document).ready(function()
 		$(this).parent().find(".timeline-label").find(".timeline-body").slideToggle("slow");
 		$(this).find("i").toggleClass("fa-minus");
 	})
+
+	$('.card-remaining').addClass('card-remaining-active');
+
+	// add circle chart
+	$('.card-web').circleProgress({
+		startAngle: 1.5 * Math.PI,
+		lineCap: '',
+		value: .65,
+		emptyFill: '#333',
+		fill: {
+			'color': '#2ecc71'
+		}
+	});
+
+	// add protein chart
+	$('.card-java').circleProgress({
+		startAngle: 1.5 * Math.PI,
+		lineCap: '', //'round',
+		value: .55,
+		emptyFill: '#333',
+		fill: {
+			'color': '#2ecc71'
+		}
+	});
+
+	// add carbs chart
+	$('.card-sql').circleProgress({
+		color: '#5a5958',
+		startAngle: 1.5 * Math.PI,
+		lineCap: '',
+		value: .75,
+		emptyFill: '#333',
+		fill: {
+			'color': '#2ecc71'
+		}
+	});
+
+	// add carbs chart
+	$('.card-agile').circleProgress({
+		color: '#5a5958',
+		startAngle: 1.5 * Math.PI,
+		lineCap: '',
+		value: .70,
+		emptyFill: '#333',
+		fill: {
+			'color': '#2ecc71'
+		}
+	});
+
+	// add carbs chart
+	$('.card-c').circleProgress({
+		color: '#5a5958',
+		startAngle: 1.5 * Math.PI,
+		lineCap: '',
+		value: .55,
+		emptyFill: '#333',
+		fill: {
+			'color': '#2ecc71'
+		}
+	});
 });
 
 
