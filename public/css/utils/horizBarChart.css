@@ -1,0 +1,62 @@
+.chart
+{
+	zoom:1;
+    width:90%;
+    margin-bottom:100px;
+}
+.chart:after
+{
+	clear:both;
+	content:'.';
+	display:block;
+	height:0;
+	visibility:hidden
+}
+.chart li
+{
+	display:block;
+	height:12px;
+	position:relative
+}
+.chart p
+{
+	margin-top:35px;
+}
+/*.chart li:before
+{
+	color:rgba(255,255,255,0.6);
+	content:attr(titleBar);
+	left:-80px;
+	position:absolute;
+	text-align:right;
+}
+.chart li.titleBar:before
+{
+	font-weight:900 !important;
+	color:white !important;
+	left:20px;
+	text-transform:uppercase;
+	text-align:right;
+}*/
+.chart li:first-child{margin-top:0}
+.chart li .bar
+{
+	background:black;
+	height:100%
+}
+.chart li .number
+{
+	/*color:rgba(255,255,255,0.6);
+	font-size:14px;
+	padding-left:20px;*/
+	position:absolute;
+}
+.chart li.past .bar{background:#00d646}
+@media screen and (max-width: 480px)
+{
+	.chart li{height:auto}
+	.chart li:before{color:black;display:block;left:0;position:relative}
+	.chart li.titleBar:before{border-bottom:1px solid}
+	.chart li .bar{height:23px}
+	.chart li .number{display:block;left:0 !important;padding-left:0;position:relative;top:-8px}
+}

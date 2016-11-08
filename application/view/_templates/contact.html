@@ -1,0 +1,83 @@
+<div id="contact" class="parralax"> <i class="fa fa-times pointer" id="closeContact" aria-hidden="true"></i>
+    <h1 class="title">CONTACT</h1>
+    <h2>Don't hesitate !</h2>
+    <div id="form">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <div class="icon-addon addon-lg">
+                        <input type="text" placeholder="Email" class="form-control" id="mail">
+                        <label for="email" class="glyphicon glyphicon-search"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <div class="icon-addon addon-lg">
+                        <input type="text" placeholder="Subject" class="form-control" id="subject">
+                        <label for="subject" class="glyphicon glyphicon-search"></label>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <div class="icon-addon addon-lg">
+                        <textarea type="text" placeholder="Message" class="form-control" id="message"></textarea>
+                        <label for="message" class="glyphicon glyphicon-search"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12"> <a data-toggle="modal" data-target="#recaptchaModal" class="btn"><i class="fa fa-paper-plane" aria-hidden="true"></i> SEND</a> </div>
+        </div>
+    </div>
+    <!--<div class="social-buttons"> <a class="social-button linkedin"><i class="fa fa-linkedin"></i></a> <a class="social-button behance"><i class="fa fa-behance"></i></a> <a class="social-button github"><i class="fa fa-github"></i></a> <a class="social-button mail" data-toggle="popover" data-html="true" data-content="axel.weyer@gmx.fr<br>axel.weyer83@gmail.com" data-placement="right"><i class="fa fa-envelope"></i></a>
+        <br>
+        <br> </div>-->
+    <div class="social-buttons">
+        <a href="https://fr.linkedin.com/in/axelweyer" target="_blank">
+            <div class='link'>
+                <div class='small'><i class="fa fa-linkedin"></i></div>
+                <div class='full'>
+                    <div class='f1'>LinkedIn <span>Axel Weyer</span></div>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.behance.net/axelweyer" target="_blank">
+            <div class='link border'>
+                <div class='small'><i class="fa fa-behance"></i></div>
+                <div class='full'>
+                    <div class='f1'>Behance <span>Axel Weyer</span></div>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/axelweyer" target="_blank">
+            <div class='link border'>
+                <div class='small'><i class="fa fa-github"></i></div>
+                <div class='full'>
+                    <div class='f1'>GitHub <span>axelweyer</span></div>
+                </div>
+            </div>
+        </a>
+        <div class='link border'>
+            <div class='small'><i class="fa fa-envelope"></i></div>
+            <div class='full'>
+                <div class='f1'> Email <span>axel.weyer83@gmail.com</span> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="recaptchaModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Please check the captcha to send the message</p>
+                <div class="g-recaptcha" data-sitekey="6LczagkUAAAAALc5lu1uuaD-afaUYxHTk18LvhQ_"></div>
+                <p id="recaptcha" style="text-align:center"></p>
+                <br>
+                <p id="responseMail"></p>
+                <button id="sendMail"><i class="fa fa-check" aria-hidden="true"></i> OK</button>
+            </div>
+        </div>
+    </div>
+</div>

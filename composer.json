@@ -1,0 +1,21 @@
+{
+    "name": "axelweyer/myWebsite",
+    "type": "project",
+    "description": "My personal & profesional website",
+    "keywords": ["axel", "weyer", "personal", "profesional", "website", "cv", "resume", "portfolio"],
+    "homepage": "https://github.com/axelweyer/myWebsite",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Axel Weyer",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/axelweyer/myWebsite/issues",
+        "source": "https://github.com/axelweyer/myWebsite"
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
