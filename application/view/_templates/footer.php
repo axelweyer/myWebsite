@@ -30,7 +30,6 @@
                             <li>Search Console by Google</li>
                             <li>credits modifs</li>
                             <li>displaying projects modifs</li>
-                            <li>backgrounds</li>
                             <li>contact</li>
                             <li>recaptcha dans alert pour confirmer envoi</li>
                         </ul>
