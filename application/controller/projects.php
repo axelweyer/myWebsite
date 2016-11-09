@@ -18,7 +18,7 @@ class Projects extends Controller
     {
         // load views
         require APP . 'view/_templates/header.php';
-        require APP . 'view/projects/index.php';
+        require APP . 'view/projects/index.html';
         require APP . 'view/_templates/contact.html';
         require APP . 'view/_templates/footer.php';
     }
@@ -30,6 +30,6 @@ class Projects extends Controller
      */
     public function showProject()
     {
-        require APP . 'view/projectsList/'.$_POST['file'].'.php';
+        require APP . 'view/projectsList/'.$_POST['file'].'.html';
     }
 }

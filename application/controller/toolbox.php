@@ -18,7 +18,7 @@ class Toolbox extends Controller
     {
         // load views
         require APP . 'view/_templates/header.php';
-        require APP . 'view/toolbox/index.php';
+        require APP . 'view/toolbox/index.html';
         require APP . 'view/_templates/contact.html';
         require APP . 'view/_templates/footer.php';
     }

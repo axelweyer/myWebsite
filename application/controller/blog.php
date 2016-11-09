@@ -18,7 +18,7 @@ class Blog extends Controller
     {
         // load views
         require APP . 'view/_templates/header.php';
-        require APP . 'view/blog/index.php';
+        require APP . 'view/blog/index.html';
         require APP . 'view/_templates/contact.html';
         require APP . 'view/_templates/footer.php';
     }
