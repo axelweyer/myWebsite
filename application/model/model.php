@@ -70,6 +70,8 @@ class Model
 		{
 			echo 'ok';
 		}*/
+
+        require APP . 'utils/variables.php';
 		include APP . 'utils/PHPMailer/class.phpmailer.php';
 		include APP . 'utils/PHPMailer/class.smtp.php';
 
@@ -77,12 +79,12 @@ class Model
 		//$mail->IsSMTP(); // enable SMTP
 		$mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
 		$mail->SMTPAuth = true; // authentication enabled
-		$mail->SMTPSecure = 'tls';
-		$mail->Host = "smtp.gmail.com";
-		$mail->Port = 465; // or 587
+		$mail->SMTPSecure = $secure;
+		$mail->Host = $host;
+		$mail->Port = $port; // or 587
 		$mail->IsHTML(true);
-		$mail->Username = "axel.weyer83@gmail.com";
-		$mail->Password = "7GASQP77";
+		$mail->Username = $username;
+		$mail->Password = $password;
 		$mail->SetFrom("example@gmail.com");
 		$mail->Subject = "Test";
 		$mail->Body = "hello";

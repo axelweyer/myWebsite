@@ -33,6 +33,7 @@
                             <li>contact</li>
                             <li>recaptcha dans alert pour confirmer envoi</li>
                         </ul>
+                        <br><br>
                     </div>
                 </div>
                 <div id="contactFooter">Created by Axel Weyer - 2016</div>
